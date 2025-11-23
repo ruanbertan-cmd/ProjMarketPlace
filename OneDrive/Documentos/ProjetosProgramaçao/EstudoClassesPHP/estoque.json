@@ -6,5 +6,9 @@
     {
         "nome": "Feijao Vermelho",
         "quantidade": 10
+    },
+    {
+        "nome": "Macarr\u00e3o",
+        "quantidade": 100
     }
 ]
