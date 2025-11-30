@@ -4,7 +4,7 @@ require_once 'database.php';
 
 $produto = new Produtos($_GET['nome'], (int)$_GET['quantidade']);
 
-$nome = $produto->getNome();
+$nome = $produto->nome;
 $quantidade = $produto->getQuantidade();
 
 $estoque = carregarEstoque();
