@@ -1,8 +1,7 @@
 <?php
 
-class Produtos 
-{   
-    private string $nome;
+class Produtos {
+    public readonly string $nome;
     private int $quantidade;
 
     public function __construct(string $nome, int $quantidade)
@@ -11,13 +10,12 @@ class Produtos
         $this->quantidade = $quantidade;
     }
 
-    public function getNome()
+    public function getNome(): string
     {
         return $this->nome;
     }
-
-    public function getQuantidade()
+    public function getQuantidade(): int
     {
         return $this->quantidade;
     }
-} 
+}

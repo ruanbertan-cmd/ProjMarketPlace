@@ -12,11 +12,11 @@ $estoque = carregarEstoque();
     <title>Estoque</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body class="container mt-4">
+<body class="container mt-4 text-center">
 
     <h1 class="mb-4 text-center">Bem-Vindo ao Nosso Mercado</h1>
 
-    <a href="produtosEstoque.php" class="btn btn-primary mb-4">Cadastrar Produtos em Estoque</a>
+    <a href="produtosEstoque.php" class="btn btn-primary mb-4 text-center">Cadastrar Produtos em Estoque</a>
 
     <h2 class="text-center">Lista de Produtos em Estoque</h2>
 

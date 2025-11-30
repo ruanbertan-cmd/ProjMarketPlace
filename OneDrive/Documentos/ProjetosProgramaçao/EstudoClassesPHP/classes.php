@@ -26,9 +26,10 @@ if (!$encontrou) {
     ];
 }
 
-salvarEstoque($estoque);
+var_dump($estoque);
+//salvarEstoque($estoque);
 
-header('Location: index.php');
+//header('Location: index.php');
 exit;
 
 
